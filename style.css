@@ -799,4 +799,9 @@
           max-width: 100%;
           margin-top: 0px;
         }
+
+        hr{
+         width: 100%;
+         margin:auto;
+        } 
     }
