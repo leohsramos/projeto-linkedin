@@ -99,7 +99,7 @@
 
     main .principal {
       background-color: white;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.185);
       width: 100%;
       position: relative; 
@@ -275,7 +275,7 @@
 
     main .sobre {
       background-color: white;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.336);
       margin-top: 10px;
       width: 100%;
@@ -297,7 +297,7 @@
 
     main .atividades {
       background-color: white;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.336);
       margin-top: 10px;
       width: 100%;
@@ -356,7 +356,7 @@
 
     main .formacao {
       background-color: white;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.336);
       margin-top: 10px;
       width: 100%;
@@ -374,10 +374,23 @@
       margin-top: 40px;
     }
 
+    .formacao hr{
+      margin-top: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .formacao  p.descricao{
+      color: #474747;
+      font-size: 14px;
+      padding-top: 5px;
+    }
+
     .faculdade {
       display: flex;
       align-items: flex-start;
       gap: 10px;
+      width: 100%;
     }
 
     .faculdade .logo img{
@@ -417,7 +430,7 @@
 
     .causas {
       background-color: white;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.336);
       margin-top: 10px;
       width: 100%;
@@ -439,7 +452,7 @@
 
     main .segundario {
       background-color: white;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.185);
       width: 100%;
       height: 250px;
@@ -520,7 +533,7 @@
 
     main .para-voce {
       background-color: white;
-      border-radius: 20px;
+      border-radius: 10px;
       box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.336);
       width: 340px;
       position: relative; 
